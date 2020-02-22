@@ -67,6 +67,7 @@ nav{
 	padding:0;
 	background-color: black;
 	width: 100%;
+	overflow: hidden;
 	z-index: 100;
 /*	border-color: rgb(221, 218, 224);
 	border-bottom-width: 5px;
