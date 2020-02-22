@@ -47,7 +47,8 @@ p{/*standard for text. I like Helvetica, Consolas */
 	height: 100%;
 	margin: 0 auto;
 	padding: 5% 0%;
-	width: auto;
+	width: 100%;
+	height: 100%;
 }
 .greyblock2{
 	background-color: rgb(253, 252, 252);
@@ -65,7 +66,8 @@ nav{
 	text-align: center;
 	padding:0;
 	background-color: black;
-	width: auto;
+	width: 100%;
+	height: auto;
 	overflow: hidden;
 	z-index: 100;
 /*	border-color: rgb(221, 218, 224);
