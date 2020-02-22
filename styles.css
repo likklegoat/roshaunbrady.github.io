@@ -1,3 +1,150 @@
+@media only screen and (max-device-width: 480px) {
+      .mobile {
+        display: block;
+      }
+      .notmobile {
+        display: none;
+      }
+      h2{ /*navigation bar*/
+		font-family: 'Squada One';
+		color: rgb(221, 218, 224);
+		font-size: 1em;
+		display: inline-block;
+		text-decoration: none;
+	}
+	h1{ /*welcome*/
+		font-family: 'Squada One';
+		font-size: 1.5em;
+		text-align: center;
+		color: rgb(221, 218, 224);
+	}
+	h3{/*mini sections*/
+		font-family: 'Squada One';
+		color: black;
+		font-size: 0.7em;
+		display: inline-block;
+		text-decoration: none;
+	}
+	h4{ /*Content sections, note color may change*/ 
+		font-family: 'Squada One';
+		font-size: 0.8em;
+		color: black;
+		/*color: rgb(255, 18, 245);*/
+	}
+	h5{
+		font-family: 'Abel';
+		font-size: 0.6em;
+		color: black;
+	}
+	h6{
+		font-family: 'Abel';
+		font-size: 0.5em;
+		color: rgb(56, 56, 56);
+	}
+	p{/*standard for text. I like Helvetica, Consolas */
+		font-family: 'Abel';
+		font-weight: bold;
+		color: black;
+	}
+      nav{
+		display: inline-block;
+		position: fixed;
+		top: 0;
+		word-spacing: 1em;
+		margin: 0 auto;
+		text-align: center;
+		padding:0;
+		background-color: black;
+		width: 100%;
+		overflow: hidden;
+		z-index: 100;
+	/*	border-color: rgb(221, 218, 224);
+		border-bottom-width: 5px;
+		border-bottom-style: solid;*/
+	}
+	nav > a{
+	padding: 2%;
+	}
+	nav > a:hover{
+		background-color: rgb(255, 18, 245);
+		text-decoration-color: white;
+		cursor: pointer;
+	}
+}
+
+ @media only screen and (min-device-width: 481px) {
+      .mobile {
+        display: none;
+      }
+      .notmobile {
+        display: block;
+      }
+      h2{ /*navigation bar*/
+		font-family: 'Squada One';
+		color: rgb(221, 218, 224);
+		font-size: 1.4em;
+		display: inline-block;
+		text-decoration: none;
+	}
+	h1{ /*welcome*/
+		font-family: 'Squada One';
+		font-size: 2.3em;
+		text-align: center;
+		color: rgb(221, 218, 224);
+	}
+	h3{/*mini sections*/
+		font-family: 'Squada One';
+		color: black;
+		font-size: 1.2em;
+		display: inline-block;
+		text-decoration: none;
+	}
+	h4{ /*Content sections, note color may change*/ 
+		font-family: 'Squada One';
+		font-size: 1.9em;
+		color: black;
+		/*color: rgb(255, 18, 245);*/
+	}
+	h5{
+		font-family: 'Abel';
+		font-size: 1.2em;
+		color: black;
+	}
+	h6{
+		font-family: 'Abel';
+		font-size: 1em;
+		color: rgb(56, 56, 56);
+	}
+	p{/*standard for text. I like Helvetica, Consolas */
+		font-family: 'Abel';
+		font-weight: bold;
+		color: black;
+	}
+      nav{
+		display: inline-block;
+		position: fixed;
+		top: 0;
+		word-spacing: 6em;
+		margin: 0 auto;
+		text-align: center;
+		padding:0;
+		background-color: black;
+		width: 100%;
+		overflow: hidden;
+		z-index: 100;
+	/*	border-color: rgb(221, 218, 224);
+		border-bottom-width: 5px;
+		border-bottom-style: solid;*/
+	}
+	nav > a{
+	padding: 2%;
+	}
+	nav > a:hover{
+		background-color: rgb(255, 18, 245);
+		text-decoration-color: white;
+		cursor: pointer;
+	}
+}
 h2{ /*navigation bar*/
 	font-family: 'Squada One';
 	color: rgb(221, 218, 224);
@@ -47,8 +194,7 @@ p{/*standard for text. I like Helvetica, Consolas */
 	height: 100%;
 	margin: 0 auto;
 	padding: 5% 0%;
-	width: 100%;
-	height: 100%;
+	width: auto;
 }
 .greyblock2{
 	background-color: rgb(253, 252, 252);
@@ -57,30 +203,8 @@ p{/*standard for text. I like Helvetica, Consolas */
 	text-align: center;
 	width: auto;
 }
-nav{
-	display: inline-block;
-	position: fixed;
-	top: 0;
-	word-spacing: 6em;
-	margin: 0 auto;
-	text-align: center;
-	padding:0;
-	background-color: black;
-	width: 100%;
-	overflow: hidden;
-	z-index: 100;
-/*	border-color: rgb(221, 218, 224);
-	border-bottom-width: 5px;
-	border-bottom-style: solid;*/
-}
-nav > a{
-	padding: 2%;
-}
-nav > a:hover{
-	background-color: rgb(255, 18, 245);
-	text-decoration-color: white;
-	cursor: pointer;
-}
+
+
 img{
 	max-width: 100%;
 	height: auto;	
