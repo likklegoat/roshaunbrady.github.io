@@ -122,15 +122,16 @@
 	}
       nav{
 		display: inline-block;
+		align-content: center;
 		position: fixed;
-		top: 0;
-		word-spacing: 6em;
-		margin: 0 auto;
-		text-align: center;
-		padding:0;
-		background-color: black;
 		width: 100%;
-		overflow: hidden;
+		top: 0;
+		word-spacing: 2%;
+		margin: 0px;
+		text-align: center;
+		padding:0px;
+		background-color: black;
+		overflow-x: hidden;
 		z-index: 100;
 	/*	border-color: rgb(221, 218, 224);
 		border-bottom-width: 5px;
@@ -146,48 +147,7 @@
 	}
 }
 
-
-h2{ /*navigation bar*/
-	font-family: 'Squada One';
-	color: rgb(221, 218, 224);
-	font-size: 1.4em;
-	display: inline-block;
-	text-decoration: none;
-}
-h1{ /*welcome*/
-	font-family: 'Squada One';
-	font-size: 2.3em;
-	text-align: center;
-	color: rgb(221, 218, 224);
-}
-h3{/*mini sections*/
-	font-family: 'Squada One';
-	color: black;
-	font-size: 1.2em;
-	display: inline-block;
-	text-decoration: none;
-}
-h4{ /*Content sections, note color may change*/ 
-	font-family: 'Squada One';
-	font-size: 1.9em;
-	color: black;
-	/*color: rgb(255, 18, 245);*/
-}
-h5{
-	font-family: 'Abel';
-	font-size: 1.2em;
-	color: black;
-}
-h6{
-	font-family: 'Abel';
-	font-size: 1em;
-	color: rgb(56, 56, 56);
-}
-p{/*standard for text. I like Helvetica, Consolas */
-	font-family: 'Abel';
-	font-weight: bold;
-	color: black;
-}
+/*////////////////*/
 
 .greyblock1{
 	background-color: black;
@@ -196,7 +156,8 @@ p{/*standard for text. I like Helvetica, Consolas */
 	height: 100%;
 	margin: 0 auto;
 	padding: 5% 0%;
-	width: auto;
+	width: 100%;
+	overflow: auto;
 }
 .greyblock2{
 	background-color: rgb(253, 252, 252);
@@ -362,7 +323,7 @@ table{
 }
 .resumebox h4{
 	color: rgb(255,18,245);
-	letter-spacing: 0.2em;
+	letter-spacing: 2%;
 }
 
 /*CONTACT PAGE*/
@@ -399,7 +360,7 @@ textarea {
   font: 1em 'Abel';
 
   /* Uniform text field size */
-  width: 250px;
+  width: 50%;
   box-sizing: border-box;
 
   /* Match form field borders */
@@ -408,7 +369,7 @@ textarea {
 label {
   /* Uniform size & alignment */
   display: inline-block;
-  width: 90px;
+  width: 20%;
   text-align: left;
 }
 textarea {
@@ -416,7 +377,7 @@ textarea {
   vertical-align: top;
 
   /* Provide space to type some text */
-  height: 10em;
+  height: 50%;
 }
 /*FOOTER AREA*/
 footer{
