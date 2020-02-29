@@ -207,6 +207,9 @@
 		border-width: 0px 0 5px 0;
 		padding: 2%;
 	}
+	.projects_table > td{
+		margin: 0 auto;
+	}
 	.projects_table .undermessage{
 		display: inline-block;
 		background-color: rgb(249, 230, 253);
