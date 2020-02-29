@@ -21,7 +21,7 @@
 	h3{/*mini sections*/
 		font-family: 'Squada One';
 		color: black;
-		font-size: 1em;
+		font-size: 0.9em;
 		display: inline-block;
 		text-decoration: none;
 	}
@@ -72,7 +72,6 @@
 		padding: 5%;
 		width: 100%;
 		overflow: auto;
-		min-height: 50vh;
 	}
 	.greyblock2{
 		background-color: rgb(253, 252, 252);
@@ -209,6 +208,7 @@
 	}
 	.projects_table > td{
 		margin: 0 auto;
+		text-align: center;
 	}
 	.projects_table .undermessage{
 		display: inline-block;
@@ -236,8 +236,8 @@
 	.contactbox{
 		background-color: rgb(249, 230, 253);
 		padding: 3%;
-		margin: 0 auto;
-		width: 70%;
+		margin: 5% auto;
+		width: auto;
 
 	}
 	/*FOOTER AREA*/
