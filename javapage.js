@@ -2,6 +2,7 @@ var curr = 1;
 var test;
 
 document.addEventListener("DOMContentLoaded", experience_slides);
+document.addEventListener("DOMContentLoaded", experience_slides2);
 
 function slideNum(n){
 	curr += n;
@@ -17,7 +18,34 @@ function experience_slides(){
 	var slideList = document.getElementsByClassName("eSlides");
 	var topList = document.getElementsByClassName("nav-exp");
 	var total = slideList.length;
-	test = total;
+
+	if (curr > total) {curr = 1;}
+	if (curr < 1) {curr = total;}
+
+	var	c = curr - 1;
+	test = c;
+
+	for (i = 0; i < total; i++){
+		if (i == c){
+			slideList[i].style.display = 'block';
+			test = 145
+		}
+		else {
+			slideList[i].style.display = 'none';
+		}
+	}
+}
+
+function slideChange2(n){
+	curr = n;
+	experience_slides();
+}
+
+function experience_slide2(){
+	var i;
+	var slideList = document.getElementsByClassName("eSlides2");
+	var topList = document.getElementsByClassName("nav-exp2");
+	var total = slideList.length;
 
 	if (curr > total) {curr = 1;}
 	if (curr < 1) {curr = total;}

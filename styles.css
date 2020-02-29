@@ -1,4 +1,4 @@
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 780px) {
       .mobile {
         display: block;
       }
@@ -8,37 +8,37 @@
       h2{ /*navigation bar*/
 		font-family: 'Squada One';
 		color: rgb(221, 218, 224);
-		font-size: 1em;
+		font-size: 1.2em;
 		display: inline-block;
 		text-decoration: none;
 	}
 	h1{ /*welcome*/
 		font-family: 'Squada One';
-		font-size: 1.5em;
+		font-size: 2em;
 		text-align: center;
 		color: rgb(221, 218, 224);
 	}
 	h3{/*mini sections*/
 		font-family: 'Squada One';
 		color: black;
-		font-size: 0.7em;
+		font-size: 1em;
 		display: inline-block;
 		text-decoration: none;
 	}
 	h4{ /*Content sections, note color may change*/ 
 		font-family: 'Squada One';
-		font-size: 0.8em;
+		font-size: 1em;
 		color: black;
 		/*color: rgb(255, 18, 245);*/
 	}
 	h5{
 		font-family: 'Abel';
-		font-size: 0.6em;
+		font-size: 0.7em;
 		color: black;
 	}
 	h6{
 		font-family: 'Abel';
-		font-size: 0.5em;
+		font-size: 0.6em;
 		color: rgb(56, 56, 56);
 	}
 	p{/*standard for text. I like Helvetica, Consolas */
@@ -50,7 +50,7 @@
 		display: inline-block;
 		position: fixed;
 		top: 0;
-		word-spacing: 1em;
+		word-spacing: 3em;
 		margin: 0 auto;
 		text-align: center;
 		padding:0;
@@ -70,9 +70,212 @@
 		text-decoration-color: white;
 		cursor: pointer;
 	}
-}
+	.greyblock1{
+		background-color: black;
+		align-content: center;
+		text-align: center;
+		min-height: 80vh;
+		margin: 0 auto;
+		padding: 5% 0%;
+		width: 100%;
+		overflow: auto;
+	}
+	.greyblock2{
+		background-color: rgb(253, 252, 252);
+		align-content: center;
+		padding: 3% 5% 3% 5%;
+		text-align: center;
+		width: auto;
+	}
 
- @media only screen and (min-device-width: 481px) {
+
+	img{
+		max-width: 100%;
+		height: auto;	
+	}
+	.firstimg{
+		margin: 4% auto;
+		align-content: center;
+		display: inline-block;
+	}
+	.aboutbox{
+		background-color: rgb(249, 230, 253);
+		align-content: center;
+		text-align: justify;
+		padding: 3%;
+		margin: 10% 5% 10% 5%;
+	}
+
+	table{
+		margin: 0 auto;
+		table-layout: auto;
+		border:	none;
+	}
+
+	/* ALL THINGS EXPERIENCE + SLIDING */
+	.expbox{
+		border-style: solid;
+		border-color: rgb(221, 218, 224);/*grey*/
+		/*border-color: rgb(232, 255, 135);/*green*/
+		border-width: 5px;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		background-color: transparent;
+		width: 75%;
+		margin: 5% auto;
+	}
+	.expref{
+		width: 75%;
+		margin: 0 auto;
+		margin-bottom: margin-top: 0;
+		padding: 0;
+		border-bottom-style: solid;
+		border-bottom-width: 5px;
+		border-bottom-color: rgb(249, 230, 253);
+	}
+	.nav-exp{
+		display: inline-block;
+		color: black;
+		border-bottom-color: black;
+		text-decoration: none;
+		text-align: center;
+		padding: 2%;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-bottom: 0;
+	}
+	.nav-exp:hover{
+		background-color: rgb(255, 18, 245);
+		text-decoration-color: white;
+		cursor: pointer;
+	}
+	.nav-exp:active{
+		background-color: rgb(255, 18, 245);
+		text-decoration-color: white;
+	}
+	.exp_container{
+		margin-top: 5%;
+		position: relative;
+	}
+	.exp_container p{
+		width: 70%;
+		text-align: justify;
+		margin: 0 auto;
+		padding-top: 3%;
+	}
+	.exp_container h5, h6{
+		margin-top: 0;
+		margin-bottom: 1%;
+		padding: 0;
+		border-style: solid black;
+		border-width: 3px;
+	}
+	.exp_container img{
+		margin-bottom: 2%;
+	}
+	.eSlides{
+		display: block;
+		margin: 2%;
+		size: 50%;
+	}
+	.button_right, .button_left{
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		padding: 16px;
+		margin-top: -22px;
+	}
+	.button_right{
+		right: 10%;
+	}
+	.button_left{
+		left: 10%;
+	}
+
+	/*FOR PROJECTS SECTION */
+	.projectbox{
+		margin: 5% auto;
+		margin-top: 3%;
+		padding: 3%;
+		text-align: center;
+		align-content: center;
+		width: auto;
+		/*background-color: rgb(236, 235, 237);*/
+		background-color: transparent;
+	}
+	.projects_table{
+		table-layout: fixed;
+		text-align: justify;
+		align-content: center;
+		border-color: rgb(249, 230, 253);
+		border-style: solid;
+		border-width: 0px 0 5px 0;
+		padding: 2%;
+	}
+	.projects_table .undermessage{
+		display: inline-block;
+		right: 0;
+		background-color: rgb(249, 230, 253);
+		text-decoration-color: black;
+		position: relative;
+		/*background-color: transparent;*/
+	}
+	
+	/*RESUME*/
+	.resumebox{
+		background-color: black;
+		padding: 1% 3% 5% 3%;
+		text-align: center;
+		align-content: center;
+		margin: 5% auto;
+		width: auto;
+	}
+	.resumebox h4{
+		color: rgb(255,18,245);
+		letter-spacing: 2%;
+	}
+
+	/*CONTACT PAGE*/
+	.contactbox{
+		background-color: rgb(249, 230, 253);
+		padding: 3%;
+		margin: 0 auto;
+		width: 70%;
+
+	}
+	/*FOOTER AREA*/
+	footer{
+		background-color: black;
+		align-content: center;
+		text-align: center;
+		color: white;
+		padding: 1.5%;
+		margin: 0 auto;
+		bottom: 0;
+	}
+	footer > h5{
+		font-size: 0.9em;
+		color: rgb(221, 218, 224);
+		padding-top: 0;
+		margin: 0 auto;
+		width: auto;
+	}
+	footer > h6{
+		font-size: 0.7em;
+		color: rgb(221, 218, 224);
+		padding-top: 0;
+		margin: 0 auto;
+		width: auto;
+	}
+}
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* XXXXXXXXXXXX    SEPERATOR    XXXXXXXXXXX */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+ @media only screen and (min-device-width: 781px) {
       .mobile {
         display: none;
       }
@@ -88,7 +291,7 @@
 	}
 	h1{ /*welcome*/
 		font-family: 'Squada One';
-		font-size: 2.3em;
+		font-size: 3em;
 		text-align: center;
 		color: rgb(221, 218, 224);
 	}
@@ -126,7 +329,7 @@
 		position: fixed;
 		width: 100%;
 		top: 0;
-		word-spacing: 2%;
+		word-spacing: 4em;
 		margin: 0px;
 		text-align: center;
 		padding:0px;
@@ -145,263 +348,217 @@
 		text-decoration-color: white;
 		cursor: pointer;
 	}
-}
 
-/*////////////////*/
-
-.greyblock1{
-	background-color: black;
-	align-content: center;
-	text-align: center;
-	height: 100%;
-	margin: 0 auto;
-	padding: 5% 0%;
-	width: 100%;
-	overflow: auto;
-}
-.greyblock2{
-	background-color: rgb(253, 252, 252);
-	align-content: center;
-	padding: 3% 5% 3% 5%;
-	text-align: center;
-	width: auto;
-}
+	.greyblock1{
+		background-color: black;
+		align-content: center;
+		text-align: center;
+		min-height: 85vh;
+		margin: 0 auto;
+		padding: 7%;
+		width: auto;
+		overflow: auto;
+	}
+	.greyblock2{
+		background-color: rgb(253, 252, 252);
+		align-content: center;
+		padding: 3% 5% 3% 5%;
+		text-align: center;
+		width: auto;
+	}
 
 
-img{
-	max-width: 100%;
-	height: auto;	
-}
-.firstimg{
-	margin: 4% auto;
-	align-content: center;
-	display: inline-block;
-}
-.aboutbox{
-	background-color: rgb(249, 230, 253);
-	align-content: center;
-	text-align: justify;
-	padding: 3%;
-	margin: 10% 5% 10% 5%;
-}
+	img{
+		max-width: 100%;
+		height: auto;	
+	}
+	.firstimg{
+		margin: 4% auto;
+		align-content: center;
+		display: inline-block;
+	}
+	.aboutbox{
+		background-color: rgb(249, 230, 253);
+		align-content: center;
+		text-align: justify;
+		padding: 3%;
+		margin: 10% 5% 10% 5%;
+	}
 
-table{
-	margin: 0 auto;
-	table-layout: auto;
-	border:	none;
-}
+	table{
+		margin: 0 auto;
+		table-layout: auto;
+		border:	none;
+	}
 
-/* ALL THINGS EXPERIENCE + SLIDING */
-.expbox{
-	border-style: solid;
-	border-color: rgb(221, 218, 224);/*grey*/
-	/*border-color: rgb(232, 255, 135);/*green*/
-	border-width: 5px;
-	padding-top: 3%;
-	padding-bottom: 3%;
-	background-color: transparent;
-	width: 75%;
-	margin: 5% auto;
-}
-.expref{
-	width: 75%;
-	margin: 0 auto;
-	margin-bottom: margin-top: 0;
-	padding: 0;
-	border-bottom-style: solid;
-	border-bottom-width: 5px;
-	border-bottom-color: rgb(249, 230, 253);
-}
-.nav-exp{
-	display: inline-block;
-	color: black;
-	border-bottom-color: black;
-	text-decoration: none;
-	text-align: center;
-	padding: 2%;
-	margin-left: 2%;
-	margin-right: 2%;
-	margin-bottom: 0;
-}
-.nav-exp:hover{
-	background-color: rgb(255, 18, 245);
-	text-decoration-color: white;
-	cursor: pointer;
-}
-.nav-exp:active{
-	background-color: rgb(255, 18, 245);
-	text-decoration-color: white;
-}
-.exp_container{
-	margin-top: 5%;
-	position: relative;
-}
-.exp_container p{
-	width: 70%;
-	text-align: justify;
-	margin: 0 auto;
-	padding-top: 3%;
-}
-.exp_container h5, h6{
-	margin-top: 0;
-	margin-bottom: 1%;
-	padding: 0;
-	border-style: solid black;
-	border-width: 3px;
-}
-.exp_container img{
-	margin-bottom: 2%;
-}
-.eSlides{
-	display: block;
-	margin: 2%;
-	size: 50%;
-}
-.button_right, .button_left{
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	padding: 16px;
-	margin-top: -22px;
-}
-.button_right{
-	right: 10%;
-}
-.button_left{
-	left: 10%;
-}
+	/* ALL THINGS EXPERIENCE + SLIDING */
+	.expbox{
+		border-style: solid;
+		border-color: rgb(221, 218, 224);/*grey*/
+		/*border-color: rgb(232, 255, 135);/*green*/
+		border-width: 5px;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		background-color: transparent;
+		width: 75%;
+		margin: 5% auto;
+	}
+	.expref{
+		width: 75%;
+		margin: 0 auto;
+		margin-bottom: margin-top: 0;
+		padding: 0;
+		border-bottom-style: solid;
+		border-bottom-width: 5px;
+		border-bottom-color: rgb(249, 230, 253);
+	}
+	.nav-exp{
+		display: inline-block;
+		color: black;
+		border-bottom-color: black;
+		text-decoration: none;
+		text-align: center;
+		padding: 2%;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-bottom: 0;
+	}
+	.nav-exp:hover{
+		background-color: rgb(255, 18, 245);
+		text-decoration-color: white;
+		cursor: pointer;
+	}
+	.nav-exp:active{
+		background-color: rgb(255, 18, 245);
+		text-decoration-color: white;
+	}
+	.exp_container{
+		margin-top: 5%;
+		position: relative;
+	}
+	.exp_container p{
+		width: 70%;
+		text-align: justify;
+		margin: 0 auto;
+		padding-top: 3%;
+	}
+	.exp_container h5, h6{
+		margin-top: 0;
+		margin-bottom: 1%;
+		padding: 0;
+		border-style: solid black;
+		border-width: 3px;
+	}
+	.exp_container img{
+		margin-bottom: 2%;
+	}
+	.eSlides{
+		display: block;
+		margin: 2%;
+		size: 50%;
+	}
+	.button_right, .button_left{
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		padding: 16px;
+		margin-top: -22px;
+	}
+	.button_right{
+		right: 10%;
+	}
+	.button_left{
+		left: 10%;
+	}
 
-/*FOR PROJECTS SECTION */
-.projectbox{
-	margin: 5% auto;
-	margin-top: 3%;
-	padding: 3%;
-	text-align: center;
-	align-content: center;
-	width: auto;
-	/*background-color: rgb(236, 235, 237);*/
-	background-color: transparent;
-}
-.projects_table{
-	table-layout: fixed;
-	text-align: justify;
-	align-content: center;
-	border-color: rgb(249, 230, 253);
-	border-style: solid;
-	border-width: 0px 0 5px 0;
-	padding: 2%;
-}
-.projects_table .mainmessage{
-	position: relative;
-}
-.projects_table .undermessage{
-	display: none;
-	text-decoration-color: black;
-	text-align: justify;
-	right: 0;
-}
-.projects_table:hover .undermessage{
-	display: inline-block;
-	right: 0;
-	background-color: rgb(249, 230, 253);
-	position: relative;
-	/*background-color: transparent;*/
-}
-.projects_table:hover .mainmessage{
-	opacity: 25%;
-	size: auto;
-}
-/*RESUME*/
-.resumebox{
-	background-color: black;
-	padding: 1% 3% 5% 3%;
-	text-align: center;
-	align-content: center;
-	margin: 5% auto;
-	width: auto;
-}
-.resumebox h4{
-	color: rgb(255,18,245);
-	letter-spacing: 2%;
-}
+	/*FOR PROJECTS SECTION */
+	.projectbox{
+		margin: 5% auto;
+		margin-top: 3%;
+		padding: 3%;
+		text-align: center;
+		align-content: center;
+		width: auto;
+		/*background-color: rgb(236, 235, 237);*/
+		background-color: transparent;
+	}
+	.projects_table{
+		table-layout: fixed;
+		text-align: justify;
+		align-content: center;
+		border-color: rgb(249, 230, 253);
+		border-style: solid;
+		border-width: 0px 0 5px 0;
+		padding: 2%;
+	}
+	.projects_table .mainmessage{
+		position: relative;
+	}
+	.projects_table .undermessage{
+		display: none;
+		text-decoration-color: black;
+		text-align: justify;
+		right: 0;
+	}
+	.projects_table:hover .undermessage{
+		display: inline-block;
+		right: 0;
+		background-color: rgb(249, 230, 253);
+		position: relative;
+		/*background-color: transparent;*/
+	}
+	.projects_table:hover .mainmessage{
+		opacity: 25%;
+		size: auto;
+	}
+	/*RESUME*/
+	.resumebox{
+		background-color: black;
+		padding: 1% 3% 5% 3%;
+		text-align: center;
+		align-content: center;
+		margin: 5% auto;
+		width: 70%;
+	}
+	.resumebox h4{
+		color: rgb(255,18,245);
+		letter-spacing: 2%;
+	}
 
-/*CONTACT PAGE*/
-.contactbox{
-	background-color: rgb(249, 230, 253);
-	padding: 3%;
-	margin: 0 auto;
-	width: 70%;
+	/*CONTACT PAGE*/
+	.contactbox{
+		background-color: rgb(249, 230, 253);
+		padding: 3%;
+		margin: 0 auto;
+		width: 70%;
 
-}
-fieldset{
-	align-content: center;
-	border: none;
-	padding: 3%;
-	text-align: center;
-	font-family: 'Abel';
-	background-color: white;
-	color: black;
-}
-form {
-  /* Center the form on the page */
-  margin: 0 auto;
-  min-width: 60%;
-  /* Form outline */
-  padding: 5%;
-  border-width: 3px;
-  border-color: rgb(249, 230, 253);
-  border-radius: 5%;
-}
-input, 
-textarea {
-  /* To make sure that all text fields have the same font settings
-     By default, textareas have a monospace font */
-  font: 1em 'Abel';
+	}
 
-  /* Uniform text field size */
-  width: 50%;
-  box-sizing: border-box;
-
-  /* Match form field borders */
-  border: 1px solid #999;
-}
-label {
-  /* Uniform size & alignment */
-  display: inline-block;
-  width: 20%;
-  text-align: left;
-}
-textarea {
-  /* Align multiline text fields with their labels */
-  vertical-align: top;
-
-  /* Provide space to type some text */
-  height: 50%;
-}
-/*FOOTER AREA*/
-footer{
-	background-color: black;
-	align-content: center;
-	text-align: center;
-	color: white;
-	padding: 1.5%;
-	margin: 0 auto;
-	bottom: 0;
-}
-footer > h5{
-	font-size: 0.9em;
-	color: rgb(221, 218, 224);
-	padding-top: 0;
-	margin: 0 auto;
-	width: auto;
-}
-footer > h6{
-	font-size: 0.7em;
-	color: rgb(221, 218, 224);
-	padding-top: 0;
-	margin: 0 auto;
-	width: auto;
+	/*FOOTER AREA*/
+	footer{
+		background-color: black;
+		align-content: center;
+		text-align: center;
+		color: white;
+		padding: 1.5%;
+		margin: 0 auto;
+		bottom: 0;
+	}
+	footer > h5{
+		font-size: 0.9em;
+		color: rgb(221, 218, 224);
+		padding-top: 0;
+		margin: 0 auto;
+		width: auto;
+	}
+	footer > h6{
+		font-size: 0.7em;
+		color: rgb(221, 218, 224);
+		padding-top: 0;
+		margin: 0 auto;
+		width: auto;
+	}
 }
 /* NOTES
 Colors:
