@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", experience_slides2);
 
 function slideChange2(n){
 	curr = n;
-	experience_slides();
+	experience_slides2();
 }
 
 function experience_slide2(){
@@ -29,4 +29,5 @@ function experience_slide2(){
 			slideList[i].style.display = 'none';
 		}
 	}
+	window.alert(total);
 }
