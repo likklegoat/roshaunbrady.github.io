@@ -128,7 +128,7 @@
 		border-bottom-width: 5px;
 		border-bottom-color: rgb(249, 230, 253);
 	}
-	.nav-exp{
+	.nav-exp2{
 		display: inline-block;
 		color: black;
 		border-bottom-color: black;
@@ -139,12 +139,12 @@
 		margin-right: 2%;
 		margin-bottom: 0;
 	}
-	.nav-exp:hover{
+	.nav-exp2:hover{
 		background-color: rgb(255, 18, 245);
 		text-decoration-color: white;
 		cursor: pointer;
 	}
-	.nav-exp:active{
+	.nav-exp2:active{
 		background-color: rgb(255, 18, 245);
 		text-decoration-color: white;
 	}
@@ -168,7 +168,7 @@
 	.exp_container img{
 		margin-bottom: 2%;
 	}
-	.eSlides{
+	.eSlides2{
 		display: block;
 		margin: 2%;
 		size: 50%;
