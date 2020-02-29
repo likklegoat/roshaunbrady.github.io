@@ -55,7 +55,7 @@
 		text-align: center;
 		padding:0;
 		background-color: black;
-		width: 100%;
+		width: auto;
 		overflow: hidden;
 		z-index: 100;
 	/*	border-color: rgb(221, 218, 224);
@@ -74,7 +74,6 @@
 		background-color: black;
 		align-content: center;
 		text-align: center;
-		min-height: 50vh;
 		margin: 0 auto;
 		padding: 5% 0%;
 		width: 100%;
