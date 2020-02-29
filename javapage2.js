@@ -1,22 +1,17 @@
 var curr = 1;
 var test;
 
-document.addEventListener("DOMContentLoaded", experience_slides);
 document.addEventListener("DOMContentLoaded", experience_slides2);
 
-function slideNum(n){
-	curr += n;
-	experience_slides();
-}
-function slideChange(n){
+function slideChange2(n){
 	curr = n;
 	experience_slides();
 }
 
-function experience_slides(){
+function experience_slide2(){
 	var i;
-	var slideList = document.getElementsByClassName("eSlides");
-	var topList = document.getElementsByClassName("nav-exp");
+	var slideList = document.getElementsByClassName("eSlides2");
+	var topList = document.getElementsByClassName("nav-exp2");
 	var total = slideList.length;
 
 	if (curr > total) {curr = 1;}

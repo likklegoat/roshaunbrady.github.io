@@ -50,7 +50,7 @@
 		display: inline-block;
 		position: fixed;
 		top: 0;
-		word-spacing: 3em;
+		word-spacing: 2em;
 		margin: 0 auto;
 		text-align: center;
 		padding:0;
@@ -221,7 +221,7 @@
 		position: relative;
 		/*background-color: transparent;*/
 	}
-	
+
 	/*RESUME*/
 	.resumebox{
 		background-color: black;
