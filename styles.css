@@ -55,7 +55,7 @@
 		text-align: center;
 		padding:0;
 		background-color: black;
-		width: auto;
+		width: 100vw;
 		overflow: hidden;
 		z-index: 100;
 	/*	border-color: rgb(221, 218, 224);
@@ -78,6 +78,7 @@
 		padding: 5% 0%;
 		width: 100%;
 		overflow: auto;
+		min-height: 100vh;
 	}
 	.greyblock2{
 		background-color: rgb(253, 252, 252);
