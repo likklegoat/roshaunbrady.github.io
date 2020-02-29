@@ -2,7 +2,6 @@ var curr = 1;
 var test;
 
 document.addEventListener("DOMContentLoaded", experience_slides);
-document.addEventListener("DOMContentLoaded", experience_slides2);
 
 function slideNum(n){
 	curr += n;
