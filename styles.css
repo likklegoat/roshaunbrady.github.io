@@ -8,7 +8,7 @@
       h2{ /*navigation bar*/
 		font-family: 'Squada One';
 		color: rgb(221, 218, 224);
-		font-size: 1em;
+		font-size: 0.8em;
 		display: inline-block;
 		text-decoration: none;
 	}
@@ -21,13 +21,13 @@
 	h3{/*mini sections*/
 		font-family: 'Squada One';
 		color: black;
-		font-size: 1.5em;
+		font-size: 1em;
 		display: inline-block;
 		text-decoration: none;
 	}
 	h4{ /*Content sections, note color may change*/ 
 		font-family: 'Squada One';
-		font-size: 1em;
+		font-size: 1.5em;
 		color: black;
 		/*color: rgb(255, 18, 245);*/
 	}
@@ -55,7 +55,7 @@
 		text-align: center;
 		padding:0;
 		background-color: black;
-		width: 100%;
+		width: auto;
 		overflow: hidden;
 		z-index: 100;
 	}
