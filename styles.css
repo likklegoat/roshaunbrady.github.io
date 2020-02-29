@@ -8,7 +8,7 @@
       h2{ /*navigation bar*/
 		font-family: 'Squada One';
 		color: rgb(221, 218, 224);
-		font-size: 1.2em;
+		font-size: 1em;
 		display: inline-block;
 		text-decoration: none;
 	}
@@ -21,7 +21,7 @@
 	h3{/*mini sections*/
 		font-family: 'Squada One';
 		color: black;
-		font-size: 1em;
+		font-size: 1.5em;
 		display: inline-block;
 		text-decoration: none;
 	}
@@ -46,7 +46,7 @@
 		font-weight: bold;
 		color: black;
 	}
-      nav{
+    nav{
 		display: inline-block;
 		position: fixed;
 		top: 0;
@@ -55,12 +55,9 @@
 		text-align: center;
 		padding:0;
 		background-color: black;
-		width: 100vw;
+		width: 100%;
 		overflow: hidden;
 		z-index: 100;
-	/*	border-color: rgb(221, 218, 224);
-		border-bottom-width: 5px;
-		border-bottom-style: solid;*/
 	}
 	nav > a{
 	padding: 2%;
@@ -78,7 +75,7 @@
 		padding: 5% 0%;
 		width: 100%;
 		overflow: auto;
-		min-height: 100vh;
+		min-height: 100%;
 	}
 	.greyblock2{
 		background-color: rgb(253, 252, 252);
@@ -215,7 +212,6 @@
 	}
 	.projects_table .undermessage{
 		display: inline-block;
-		right: 0;
 		background-color: rgb(249, 230, 253);
 		text-decoration-color: black;
 		position: relative;
