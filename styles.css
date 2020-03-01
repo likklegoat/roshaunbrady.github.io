@@ -67,13 +67,16 @@
 		cursor: pointer;
 	}
 	.greyblock1{
-		background-color: black;
+		background-color: rgb(253, 252, 252);
 		align-content: center;
 		text-align: center;
 		margin: 0 auto;
 		padding: 5%;
 		width: auto;
 		overflow: auto;
+	}
+	.greyblock1 > h1{
+		color: black;
 	}
 	.greyblock2{
 		background-color: rgb(253, 252, 252);
