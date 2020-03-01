@@ -80,7 +80,7 @@
 		align-content: center;
 		padding: 3% 2% 3% 2%;
 		text-align: center;
-		width: auto;
+		width: 100vw;
 	}
 
 
@@ -211,7 +211,7 @@
 		text-align: center;
 		align-content: center;
 		margin: 5% auto;
-		width: auto;
+		width: 100vw;
 	}
 	.resumebox h4{
 		color: rgb(255,18,245);
@@ -223,7 +223,7 @@
 		background-color: rgb(249, 230, 253);
 		padding: 3%;
 		margin: 5% auto;
-		width: auto;
+		width: 100vw;
 
 	}
 	/*FOOTER AREA*/
@@ -249,7 +249,7 @@
 		color: rgb(221, 218, 224);
 		padding-top: 0;
 		margin: 0 auto;
-		width: auto;
+		width: 100vw;
 	}
 }
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
