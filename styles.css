@@ -80,7 +80,7 @@
 		align-content: center;
 		padding: 3% 2% 3% 2%;
 		text-align: center;
-		width: 100vw;
+		width: auto;
 	}
 
 
@@ -211,7 +211,7 @@
 		text-align: center;
 		align-content: center;
 		margin: 5% auto;
-		width: 100vw;
+		width: 100%;
 	}
 	.resumebox h4{
 		color: rgb(255,18,245);
@@ -223,7 +223,7 @@
 		background-color: rgb(249, 230, 253);
 		padding: 3%;
 		margin: 5% auto;
-		width: 100vw;
+		width: auto;
 
 	}
 	/*FOOTER AREA*/
@@ -235,7 +235,7 @@
 		padding: 1.5%;
 		margin: 0 auto;
 		bottom: 0;
-		width: 100%;
+		width: auto;
 	}
 	footer > h5{
 		font-size: 0.9em;
@@ -249,7 +249,7 @@
 		color: rgb(221, 218, 224);
 		padding-top: 0;
 		margin: 0 auto;
-		width: 100vw;
+		width: auto;
 	}
 }
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
