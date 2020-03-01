@@ -214,7 +214,7 @@
 		text-align: center;
 		align-content: center;
 		margin: 5% auto;
-		width: auto;
+		width: 100%;
 	}
 	.resumebox h4{
 		color: rgb(255,18,245);
@@ -226,7 +226,7 @@
 		background-color: rgb(249, 230, 253);
 		padding: 5%;
 		margin: 5% auto;
-		width: auto;
+		width: 100%;
 
 	}
 	/*FOOTER AREA*/
