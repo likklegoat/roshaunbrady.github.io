@@ -53,11 +53,11 @@
 		left: 0;
 		word-spacing: 1em;
 		margin: 0 auto;
-		text-align: left;
+		text-align: justify-all;
 		padding:0;
 		background-color: black;
 		width: 100%;
-		/*overflow: hidden;*/
+		overflow: hidden;
 		z-index: 100;
 		height: 15px fixed;
 	}
@@ -98,7 +98,7 @@
 		align-content: center;
 		text-align: justify;
 		padding: 3%;
-		margin: 0 auto;
+		margin: 3% auto;
 		width: auto;
 	}
 
@@ -118,7 +118,7 @@
 		padding-bottom: 3%;
 		background-color: transparent;
 		width: 100%;
-		margin: 0 auto;
+		margin: 3% auto;
 	}
 	.expref{
 		width: 85%;
