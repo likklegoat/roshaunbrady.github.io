@@ -78,7 +78,7 @@
 	.greyblock2{
 		background-color: rgb(253, 252, 252);
 		align-content: center;
-		padding: 3% 5% 3% 5%;
+		padding: 3% 2% 3% 2%;
 		text-align: center;
 		width: auto;
 	}
@@ -98,7 +98,7 @@
 		align-content: center;
 		text-align: justify;
 		padding: 3%;
-		margin: 10% 5% 10% 5%;
+		margin: 10% 3% 10% 3%;
 	}
 
 	table{
@@ -116,7 +116,7 @@
 		padding-top: 3%;
 		padding-bottom: 3%;
 		background-color: transparent;
-		width: 75%;
+		width: auto;
 		margin: 5% auto;
 	}
 	.expref{
@@ -135,8 +135,6 @@
 		text-decoration: none;
 		text-align: center;
 		padding: 2%;
-		margin-left: 2%;
-		margin-right: 2%;
 		margin-bottom: 0;
 	}
 	.nav-exp2:hover{
@@ -154,7 +152,7 @@
 	}
 	.exp_container p{
 		width: 70%;
-		text-align: justify;
+		text-align: center;
 		margin: 0 auto;
 		padding-top: 3%;
 	}
@@ -170,22 +168,8 @@
 	}
 	.eSlides2{
 		display: block;
-		margin: 2%;
+		margin: 4% auto;
 		size: 50%;
-	}
-	.button_right, .button_left{
-		cursor: pointer;
-		position: absolute;
-		top: 50%;
-		width: auto;
-		padding: 16px;
-		margin-top: -22px;
-	}
-	.button_right{
-		right: 10%;
-	}
-	.button_left{
-		left: 10%;
 	}
 
 	/*FOR PROJECTS SECTION */
@@ -327,7 +311,7 @@
 		position: fixed;
 		width: 100%;
 		top: 0;
-		word-spacing: 4em;
+		word-spacing: 2.5em;
 		margin: 0px;
 		text-align: center;
 		padding:0px;
