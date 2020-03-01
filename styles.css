@@ -53,11 +53,11 @@
 		left: 0;
 		word-spacing: 1em;
 		margin: 0 auto;
-		text-align: center;
+		text-align: left;
 		padding:0;
 		background-color: black;
 		width: 100%;
-		overflow: hidden;
+		/*overflow: hidden;*/
 		z-index: 100;
 		height: 15px fixed;
 	}
