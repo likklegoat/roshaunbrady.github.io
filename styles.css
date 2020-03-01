@@ -72,7 +72,7 @@
 		text-align: center;
 		margin: 0 auto;
 		padding: 5%;
-		width: 100%;
+		width: auto;
 		overflow: auto;
 	}
 	.greyblock2{
@@ -179,7 +179,7 @@
 		padding: 3%;
 		text-align: center;
 		align-content: center;
-		width: 100%;
+		width: 95vw;
 		/*background-color: rgb(236, 235, 237);*/
 		background-color: transparent;
 	}
@@ -211,7 +211,7 @@
 		text-align: center;
 		align-content: center;
 		margin: 5% auto;
-		width: 100%;
+		width: auto;
 	}
 	.resumebox h4{
 		color: rgb(255,18,245);
