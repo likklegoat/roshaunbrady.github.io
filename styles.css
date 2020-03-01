@@ -72,7 +72,7 @@
 		text-align: center;
 		margin: 0 auto;
 		padding: 5%;
-		width: 100vw;
+		width: 100% auto;
 		overflow: auto;
 	}
 	.greyblock2{
@@ -118,7 +118,7 @@
 		padding-bottom: 3%;
 		background-color: transparent;
 		width: 100%;
-		margin: 5% auto;
+		margin: 0 auto;
 	}
 	.expref{
 		width: 85%;
@@ -169,13 +169,14 @@
 	}
 	.eSlides2{
 		display: block;
-		margin: 5% auto;
+		margin: 10% 0%;
+		padding: 2% 0%;
 		size: 50%;
 	}
 
 	/*FOR PROJECTS SECTION */
 	.projectbox{
-		margin: 5% auto;
+		margin: 0 auto;
 		margin-top: 3%;
 		padding: 3%;
 		text-align: center;
@@ -222,7 +223,7 @@
 	/*CONTACT PAGE*/
 	.contactbox{
 		background-color: rgb(249, 230, 253);
-		padding: 3%;
+		padding: 5%;
 		margin: 5% auto;
 		width: 100%;
 
