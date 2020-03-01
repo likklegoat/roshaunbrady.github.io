@@ -13,10 +13,173 @@
 
 <body>
 	<div class="mobile">
-		<div style="text-align: center;">
+		<!-- <div style="text-align: center;">
 			<h1 style="color: black;">Please visit site on computer!</h1>
 			<h3 style="color: darkgrey;">Mobile Version of Site Under Construction until 03/08/2020</h3>
 			<h3 style="color: darkgrey;">Thank you!</h3>
+		</div> -->
+		<nav>
+			<a href="#ABOUTME2" style="left: 0;"><h2>About</h2></a>
+			<a href="#EXPERIENCE2" style="left: 0;"><h2>Experience</h2></a>
+			<a href="#PROJECTS2" style="left: 0;"><h2>Projects</h2></a>
+			<a href="#RESUME2" style="left: 0;"><h2>Resume</h2></a>
+			<a href="#CONTACT2" style="left: 0;"><h2>Contact</h2></a>
+		</nav>
+		<div class="greyblock1">
+			<div style="top:-20%;">
+				<h1> Welcome to my Website!</h1>
+				<div>
+					<img src="Asset 21.png" style="padding: 5% auto;">
+				</div>
+			</div>
+			<br><br><br>
+		</div>
+		<div id="ABOUTME2"></div>
+			<div class="greyblock2">
+				<div class="aboutbox"> <!-- ABOUT ME -->
+					<table>
+						<tr>
+							<td style="width: 100%; align-content: center; text-align: center;">
+								<img src="Asset 9.png" width="80%" height="50%">
+								<h4>WHO AM I?</h4>
+								<a href="https://www.linkedin.com/in/roshaunbrady007" target="_blank"><img src="Asset 26.png" style="display: inline-block;"></a>
+								<img src="Asset 25.png" title="bradyr2@rpi.edu" style = "display:inline-block;">
+								<img src="Asset 24.png" title="718-744-7430" style="display: inline-block;">
+							</td>
+						</tr>
+						<tr>
+							<td style="padding: 4%">
+								<p style="text-align: justify; line-height:150%">
+									My name is Roshaun Brady. I am studying Mechanical Engineering at Rensselaer Polytechnic Institute. I will be graduating May 2020 and am currently looking for full time positions. I would love to work on electromechanical applications, such as modeling control systems, and test engineering for hardware or mechanical product design. Over time, I have become proficient in using Python, C, Arduino, MySQL, Tableau, PSpice, NX Cad, and Adobe Illustrator. 
+									<br><br>
+									Most recently, I worked at Tesla as a Hardware Engineering Intern for their Compliance Department. There, I analyzed the behavior of the Megapack, V3 solar panels, and MCI's, further developed code for data acquisition and anlysis, and created reliability test documentation for various in-house products.
+									<br><br>
+									I am curious about my world and determined to be a part of creative solutions that ultimately give me a sense of purpose. This is why I move through life with intention. I hope that you find something interesting as you go through the site! Thanks for stopping by.
+								</p>
+							</td>
+						</tr>
+					</table>			
+				</div>
+				<div id="EXPERIENCE2"></div>
+				<div class="expbox">
+					<h4 style="margin-bottom: 0;">EXPERIENCE</h4>
+					<div class="expref">
+						<a class="nav-exp2" onclick="slideChange2(1)"><h3>Tesla</h3> </a>
+						<a class="nav-exp2" onclick="slideChange2(2)"><h3>Amazon</h3></a>
+						<a class="nav-exp2" onclick="slideChange2(3)"><h3>FirstEnergy</h3></a>
+						<a class="nav-exp2" onclick="slideChange2(4)"><h3>SelfArray</h3></a>
+					</div>
+					<div class="exp_container">
+						<div class="eSlides2" id="TESLA" style="display: inline-block;">
+							<img src="Asset 19.png">
+							<h5>Tesla</h5>
+							<h6><i>Aug 2019 - Dec 2019</i></h6>
+							<p>Worked with Compliance Dept to conduct comprehensive tests on Energy products. Developed python code in conjunction with MySQL and Tableau for data analysis. Saw Elon Musk in person and blew him a kiss.</p>
+						</div>
+						<div class="eSlides2" id="AMAZON" style="display: inline-block;">
+							<img src="Asset 18.png">
+							<h5>Amazon</h5>
+							<h6><i>Jun 2019 - Aug 2019</i></h6>
+							<p>Managed the technical operations of the DFW6 warehouse. Developed a new process for non-conveyor sector of facility. Assisted maintenance technicians in repairing and monitoring equipment. </p>
+						</div>
+						<div id="FE" class="eSlides2">
+							<img src="Asset 17.png">
+							<h5> FirstEnergy</h5>
+							<h6><i> Aug 2018 - Dec 2018</i></h6>
+							<p>Worked with portfolio managers with the development and management for TX and DX portfolios. Assisted project managers with scoping for electronic projects.</p>
+						</div>
+						<div id="SA" class="eSlides2">
+							<img src="Asset 20.png">
+							<h5> SelfArray </h5>
+							<h6><i> Jun 2018 - Aug 2018</i></h6>
+							<p> Used Python and OpenCV to develop visual processing software for research. Designed precision automation tool using NX CAD for LED dispersion. </p>
+						</div>
+					</div>
+				</div>
+				<div id="PROJECTS2" class="projectbox">
+					<h4 style="border-color: rgb(249, 230, 253); border-width: 0px 0px 10px 0px; border-style: solid;padding-bottom: 3%;">PROJECTS</h4>
+					<!-- Information about Projessing Project -->
+					<div id="Processing">
+						<table class="projects_table">
+							<tr>
+								<td style="width:100%; text-align: center;">
+									<img src="Asset 30.png">	
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>Processing Game</h3>
+									<p> Developed a visual game experience as a final project for my Computer Processing/Vision course. The purpose of this interactive game was to evoke three different experiences and emotions from the viewer. It is comprised of three rooms and a main room which served as a starting point and instructionary guide. Each room was an object-rendered 3D space and movement was developed using a unit circle approach and vector math. This game was developed using Processing Application, and Java.</p>
+									<div><h5 style="color: darkgrey;"> JAVA, PROCESSING, ADOBE ILLUSTRATOR </h5></div>
+								</td>
+							</tr>	
+						</table>
+							
+					</div>
+					<!--Information about Embedded Controls Project-->
+					<div id="SmartCar">
+						<table class="projects_table">
+							<tr>
+								<td style="width:100%; text-align: center;">
+									<img src="Asset 31.png">	
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>Smart Car</h3>
+									<p> Enhanced a smart car for my Embedded Controls Course using C and through hardware implementation. Throughout the course, I worked on a team of 3 to meet different car developments set by the course. I primarily focused on coding for this course and would alternate between hardware and testing depending on my partners' involvement. For one project, we were able to get the car to detect obstacles such as a wall or a book and turn to avoid collision using a ranger. In another project, we used an accelerometer to guage when the car reached level ground after climbing up or down an incline. For the final project, we shiftted our experience towards a small gondola, where we played with hardware components to affect the speed of the system and halt motion at different angles or in response to an approaching obstacle, respectively.</p>
+									<h5 style="color: darkgrey;"> C, SiLabs IDE APPLICATION (C8051), CIRCUITRY/HARDWARE IMPLEMENTATION</h5>
+								</td>
+							</tr>	
+						</table>	
+					</div>
+					<!-- Information about ASASIN -->
+					<div id="ASASIN">
+						<table class="projects_table">
+							<tr>
+								<td style="width:100%; text-align: center;">
+									<img src="Asset 29.png">	
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3>Asasin Software</h3>
+									<p> Developed image anlyzing software using OpenCv and Python for patented micro-LED stages. Main concepts used were thresholding and line detection to identify magnets. Data collected from image were used to calculate the accuracy of completed arrays by detemining the centroid of each LED and comparing the pitch distance to its desired value.</p>
+									<h5 style="color: darkgrey;"> OPENCV, PYTHON</h5>
+								</td>
+							</tr>
+						</table>		
+					</div>
+					<!--insert additional projects-->
+					<h4>Additional Projects</h4>
+						<table class="projects_table">
+							<tr>
+								<td> 
+									<h3 style="margin: 0 auto; text-align: center; top: 0;">Sensor AI</h3>
+									<img src="Asset 27.png">
+								</td>
+								<td> 
+									<h3 style="margin: 0 auto; text-align: center; top: 0;">Gyroscope</h3>
+									<img src="Asset 32.png">
+								</td>
+								<td> 
+									<h3 style="margin: 0 auto; text-align: center; top: 0;">Homemade Speakers</h3>
+									<img src="Asset 28.png">
+								</td>
+							</tr>
+						</table>					
+				</div>
+				<div id="RESUME2" class="resumebox">
+				<h4>RESUME</h4>
+				<a href="resume.pdf" target="_blank" style=""><img src="Asset 34.png" alt = "Resume"></a>
+				</div>
+
+				<div id="CONTACT2" class="contactbox">
+					<h4 style="color: black">CONTACT ME :)</h4>
+					<a href="tel:7187447430" style="left:0; padding: 5%;"> <img src="Asset 24.png"></a>
+					<a href="mailto:bradyr2@rpi.edu?Subject=Personal Website Response!" target="_top" style="right:0; padding: 5%;"><img src="Asset 25.png"></a>
+				</div>
+			</div>
 		</div>
 	</div>
 
