@@ -116,11 +116,11 @@
 		padding-top: 3%;
 		padding-bottom: 3%;
 		background-color: transparent;
-		width: auto;
+		width: 100%;
 		margin: 5% auto;
 	}
 	.expref{
-		width: 75%;
+		width: 85%;
 		margin: 0 auto;
 		margin-bottom: margin-top: 0;
 		padding: 0;
@@ -235,6 +235,7 @@
 		padding: 1.5%;
 		margin: 0 auto;
 		bottom: 0;
+		width: 100%;
 	}
 	footer > h5{
 		font-size: 0.9em;
