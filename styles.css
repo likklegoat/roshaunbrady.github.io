@@ -216,13 +216,13 @@
 		width: 100%;
 	}
 	.resumebox h4{
-		color: rgb(253, 252, 252);
+		color: rgb(249, 230, 253);
 		letter-spacing: 2%;
 	}
 
 	/*CONTACT PAGE*/
 	.contactbox{
-		background-color: rgb(253, 252, 252);
+		background-color: rgb(249, 230, 253);
 		padding: 5%;
 		margin: 5% auto;
 		width: 100%;
@@ -411,12 +411,12 @@
 	}
 	.nav-exp:hover{
 		background-color: rgb(255, 18, 245);
-		text-decoration-color: white;
+		text-decoration-color: black;
 		cursor: pointer;
 	}
 	.nav-exp:active{
 		background-color: rgb(255, 18, 245);
-		text-decoration-color: white;
+		text-decoration-color: black;
 	}
 	.exp_container{
 		margin-top: 5%;
@@ -508,13 +508,13 @@
 		width: auto;
 	}
 	.resumebox h4{
-		color: rgb(253, 252, 252);
+		color: rgb(249, 230, 253);
 		letter-spacing: 2%;
 	}
 
 	/*CONTACT PAGE*/
 	.contactbox{
-		background-color: rgb(253, 252, 252);
+		background-color: rgb(249, 230, 253);
 		padding: 3%;
 		margin: 0 auto;
 		width: auto;
