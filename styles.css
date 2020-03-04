@@ -65,7 +65,8 @@
 	}
 	nav > a:hover{
 		background-color: rgb(249, 230, 253);
-		text-decoration-color: white;
+		text-decoration-color: black;
+		color: black;
 		cursor: pointer;
 	}
 	.greyblock1{
@@ -331,7 +332,8 @@
 	}
 	nav > a:hover{
 		background-color: rgb(249, 230, 253);
-		text-decoration-color: white;
+		text-decoration-color: black;
+		color: black;
 		cursor: pointer;
 	}
 
