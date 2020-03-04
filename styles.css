@@ -411,12 +411,12 @@
 		margin-bottom: 0;
 	}
 	.nav-exp:hover{
-		background-color: rgb(255, 18, 245);
+		background-color: rgb(249, 230, 253);
 		text-decoration-color: black;
 		cursor: pointer;
 	}
 	.nav-exp:active{
-		background-color: rgb(255, 18, 245);
+		background-color:rgb(249, 230, 253);
 		text-decoration-color: black;
 	}
 	.exp_container{
