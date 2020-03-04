@@ -1,4 +1,4 @@
-@media only screen and (max-device-width: 780px) {
+@media only screen and (max-device-width: 480px) {
       .mobile {
         display: block;
       }
@@ -262,7 +262,7 @@
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
- @media only screen and (min-device-width: 781px) {
+ @media only screen and (min-device-width: 481px) {
       .mobile {
         display: none;
       }
