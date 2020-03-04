@@ -7,7 +7,7 @@
       }
       h2{ /*navigation bar*/
 		font-family: 'Squada One';
-		color: rgb(221, 218, 224);/*rgb(221, 218, 224);*/
+		color: rgb(221, 218, 224);
 		font-size: 0.8em;
 		display: inline-block;
 		text-decoration: none;
@@ -331,7 +331,7 @@
 	padding: 2%;
 	}
 	nav > a:hover{
-		background-color: rgb(249, 230, 253);
+		background-color: rgb(221, 218, 224); /*rgb(249, 230, 253);*/
 		text-decoration-color: black;
 		color: black;
 		cursor: pointer;
