@@ -64,7 +64,7 @@
 		height: 25px fixed;
 	}
 	nav > a:hover{
-		background-color: rgb(253, 252, 252);
+		background-color: rgb(249, 230, 253);
 		text-decoration-color: white;
 		cursor: pointer;
 	}
@@ -330,7 +330,7 @@
 	padding: 2%;
 	}
 	nav > a:hover{
-		background-color: rgb(253, 252, 252);
+		background-color: rgb(249, 230, 253);
 		text-decoration-color: white;
 		cursor: pointer;
 	}
