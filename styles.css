@@ -331,10 +331,12 @@
 	padding: 2%;
 	}
 	nav > a:hover{
-		background-color: rgb(221, 218, 224); /*rgb(249, 230, 253);*/
+		background-color: rgb(255, 18, 245);
 		text-decoration-color: black;
-		color: black;
 		cursor: pointer;
+	}
+	nav > h2{
+		
 	}
 
 	.greyblock1{
